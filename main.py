@@ -20,10 +20,10 @@ from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings('ignore')
 
-# Try importing yfinance for real data
+# Try importing yfinance for real date
 try:
     import yfinance as yf
-    YFINANCE_AVAILABLE = True
+    YFINANCE_AVAILABLE = True #Another comment
 except ImportError:
     YFINANCE_AVAILABLE = False
     print("yfinance not installed. Install via: pip install yfinance")
